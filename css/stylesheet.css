@@ -20,6 +20,6 @@ ul {
     color:azure;
 }
 
-p > ul {
-    color:blue;
+p + ul {
+    background-color:blue;
 }
