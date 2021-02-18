@@ -16,10 +16,15 @@ p {
     color:azure;
 }
 
+aside {
+    color:azure;
+}
+
 ul {
     color:azure;
 }
 
 p + ul {
-    background-color:blue;
+    background-color:rgb(125, 161, 238);
+    text-align: center;
 }
