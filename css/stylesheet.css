@@ -1,6 +1,6 @@
 
 body{
-    background-color:lightseagreen
+    background-color: #334259;
 }
 
 h1{
@@ -59,4 +59,13 @@ li{
     display:flex;
     width: 550px;
     flex-wrap: wrap;
+}
+footer{
+    diplay:flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #a6cad4;
+}
+.items{
+    justify-content: center;
 }
