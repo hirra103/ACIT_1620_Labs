@@ -40,8 +40,14 @@ header {
    
     list-style-type: none;
     background-color: #a6cad4;
-    display:flex;
-    align-items:center
-    justify-content:space-between;
-
+    display:grid;
+    grid-template-columns: 100px 100px;
+    align-items: center;
+}
+.items{
+    
+}
+    
+li{
+    flex:1 200px;
 }
