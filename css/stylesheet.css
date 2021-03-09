@@ -32,7 +32,7 @@ p + ul {
 
 header {
     
-    text-align: center;
+   text-align: center; 
     background-color: #a6cad4;
 }
 
@@ -42,12 +42,14 @@ header {
     background-color: #a6cad4;
     display:grid;
     grid-template-columns: 100px 100px;
-    align-items: center;
+    justify-content: center;
 }
-.items{
-    
-}
-    
+
 li{
-    flex:1 200px;
+    justify-content:center;
+}
+
+#image{
+    display:flex;
+    flex-direction: row-reverse;
 }
