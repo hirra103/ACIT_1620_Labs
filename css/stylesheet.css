@@ -6,6 +6,7 @@ body{
 h1{
     color:midnightblue;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 h2 {
@@ -27,4 +28,20 @@ ul {
 p + ul {
     background-color:rgb(125, 161, 238);
     text-align: center;
+}
+
+header {
+    
+    text-align: center;
+    background-color: #a6cad4;
+}
+
+#nav {
+   
+    list-style-type: none;
+    background-color: #a6cad4;
+    display:flex;
+    align-items:center
+    justify-content:space-between;
+
 }
