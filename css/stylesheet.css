@@ -63,6 +63,7 @@ li{
 footer{
     diplay:flex;
     justify-content: center;
+    align-items: flex-end;
     text-align: center;
     background-color: #a6cad4;
 }
